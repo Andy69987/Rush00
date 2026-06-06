@@ -1,0 +1,11 @@
+Write a function that will give a line of output : /***\
+You must only use while loop to go from char to char
+Please use write function to store char.
+To move to next char use "if, else, elif"
+
+Ascii characters (char):
+'/' = 47
+'\' = 92
+' ' = 32
+'*" = 42
+'\n' = 10

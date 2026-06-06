@@ -1,5 +1,5 @@
 int main()
 {
-rush(x, y);
-return (0);
+	rush(5, 5);
+	return (0);
 }
