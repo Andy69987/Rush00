@@ -6,3 +6,11 @@ void rush(int x, int y)
 {
 	
 }
+
+
+// max output looks like: 
+// /***\
+// *   *
+// *   *
+// *   *
+// \***/

@@ -9,3 +9,11 @@ Ascii characters (char):
 ' ' = 32
 '*" = 42
 '\n' = 10
+
+max output looks like: 
+
+/***\
+*   *
+*   *
+*   *
+\***/
