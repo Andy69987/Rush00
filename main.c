@@ -1,6 +1,8 @@
+void	rush(int x, int y);
+
 int main()
 {
-	rush(5, 5);
+	rush(4, 4);
 	return (0);
 }
 
