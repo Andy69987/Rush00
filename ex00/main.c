@@ -6,15 +6,13 @@
 /*   By: breheg <breheg@student.codam.nl>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/07 17:55:20 by breheg            #+#    #+#             */
-/*   Updated: 2026/06/07 17:55:21 by breheg           ###   ########.fr       */
+/*   Updated: 2026/06/07 18:16:53 by breheg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 void	rush(int x, int y);
 
-int main()
+int	main(void)
 {
 	rush(5, 1);
 	return (0);

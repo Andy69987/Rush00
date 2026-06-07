@@ -6,13 +6,9 @@
 /*   By: breheg <breheg@student.codam.nl>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/07 17:55:28 by breheg            #+#    #+#             */
-/*   Updated: 2026/06/07 17:56:14 by breheg           ###   ########.fr       */
+/*   Updated: 2026/06/07 18:15:31 by breheg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
-
-#include <unistd.h>
 
 void	ft_putchar(char c)
 {
