@@ -7,13 +7,14 @@ void	rush(int x, int y)
 
 	xx = 0;
 	yy = 0;
-
 	while (yy < y)
 	{
 		while (xx < x)
 		{
-			if ((yy == 0) && (xx == 0 || xx == x - 1))
-			write(1, "A", 1);
+			if ((xx == 0) && (yy == 0 || yy == y - 1))
+			write(1, "/", 1);
+			if ((yy == y - 1) && (xx == 0 || xx == x - 1))
+			write(1, "/", 1);
 			else if ((yy == y - 1) && (xx == 0 || xx == x - 1))
 				write(1, "C", 1);
 			else if ((yy == 0 || yy == y - 1) || (xx == 0 || xx == x - 1))
