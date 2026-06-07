@@ -1,0 +1,102 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   c_tut_01                                           :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: fpessy <fpessy@student.codam.nl>             +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2026/06/07 14:49:47 by fpessy        #+#    #+#                 */
+/*   Updated: 2026/06/07 14:49:49 by fpessy        ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+#include <stdio.h>
+
+// Rush (X) - How X works (single line)
+void	ft_X(void)
+{
+	char	a;
+
+	a = '1';
+	while (a <= '1')
+	{
+		write(1, "/", 1);
+		write(1, "0", 1);
+		write(1, "0", 1);
+		write(1, "0", 1);
+		write(1, "\\", 1);
+		write(1, "\n", 1);
+		a++;
+	}
+}
+
+// Rush (Y) - How Y works (5 steps down)
+void	ft_Y(void)
+{
+	int	i;
+
+	i = '1';
+	while (i <= '5')
+	{
+		write(1, &i, 1);
+		write(1, "\n", 1);
+		i++;
+	}
+}
+
+// Rush (X) - How X works copying same for 5 lines
+void	ft_X_1(void)
+{
+	char	a;
+
+	a = '0';
+	while (a <= '4') //code starts counting at 0 so while 4 (0, 1, 2, 3, 4) = 5 lines
+	{
+		write(1, "/", 1);
+		write(1, "0", 1);
+		write(1, "0", 1);
+		write(1, "0", 1);
+		write(1, "\\", 1);
+		write(1, "\n", 1);
+		a++;
+	}
+}
+
+// How "if, else if, else" conditions works
+void	if_else()
+{
+    int character = 90; // choose a number to replace '90'
+
+    if (character >= 90) 		
+	{
+        write(1, "/", 1);	//if put 90 or higher (>=) this block will execute
+    } 
+	else if (character >= 80) 
+	{
+        write(1, "\\", 1); // if put 80 or higher (>=) this block will execute
+    } 
+	else if (character >= 70) 
+	{
+        write(1, "*", 1); // if put 70 or higher (>=) this block will execute
+    }
+	else 
+	{
+        write(1, " ", 1);
+    }
+}
+
+int	main(void)
+{	
+	ft_X();				//this function will create a line
+	write(1, "\n", 1);	//this is write you add a new line in an output
+	ft_Y();				//this function will put 1 character every line
+	write(1, "\n", 1);	//this is write you add a new line in an output
+	ft_X_1();
+	write(1, "\n", 1);	//this is write you add a new line in an output
+	if_else();
+	write(1, "\n", 1);	//this is write you add a new line in an output
+	printf("Hello");	//this is how you add text in an output
+	write(1, "\n", 1);	//this is write you add a new line in an output
+	return (0);
+}
